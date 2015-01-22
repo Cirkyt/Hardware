@@ -1809,11 +1809,6 @@ W = angled&lt;p&gt;
 <wire x1="-25.4" y1="60.96" x2="-17.78" y2="60.96" width="0.1524" layer="91"/>
 <label x="-22.86" y="60.96" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="50.8" x2="-25.4" y2="50.8" width="0.1524" layer="91"/>
-<label x="-22.86" y="50.8" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -1832,6 +1827,11 @@ W = angled&lt;p&gt;
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="114.3" y1="63.5" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="50.8" x2="-25.4" y2="50.8" width="0.1524" layer="91"/>
+<label x="-22.86" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
