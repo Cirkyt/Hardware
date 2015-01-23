@@ -1740,7 +1740,7 @@ W = angled&lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="U1" library="silabs-si1411" deviceset="SI1141" device=""/>
+<part name="U$1" library="silabs-si1411" deviceset="SI1141" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
@@ -1759,7 +1759,7 @@ W = angled&lt;p&gt;
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="A" x="27.94" y="63.5"/>
+<instance part="U$1" gate="A" x="27.94" y="63.5"/>
 <instance part="P+1" gate="VCC" x="22.86" y="73.66"/>
 <instance part="GND1" gate="1" x="22.86" y="35.56"/>
 <instance part="P+2" gate="VCC" x="96.52" y="66.04"/>
@@ -1778,7 +1778,7 @@ W = angled&lt;p&gt;
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="VDD"/>
+<pinref part="U$1" gate="A" pin="VDD"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="22.86" y1="71.12" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
@@ -1790,11 +1790,11 @@ W = angled&lt;p&gt;
 <wire x1="7.62" y1="17.78" x2="7.62" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="LED3"/>
+<pinref part="U$1" gate="A" pin="LED3"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="83.82" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="58.42" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="LED2"/>
+<pinref part="U$1" gate="A" pin="LED2"/>
 <wire x1="96.52" y1="60.96" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <junction x="96.52" y="60.96"/>
@@ -1813,7 +1813,7 @@ W = angled&lt;p&gt;
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="U1" gate="A" pin="GND"/>
+<pinref part="U$1" gate="A" pin="GND"/>
 <wire x1="22.86" y1="38.1" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <label x="22.86" y="40.64" size="1.778" layer="95"/>
@@ -1839,7 +1839,7 @@ W = angled&lt;p&gt;
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="93.98" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="81.28" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="LED1"/>
+<pinref part="U$1" gate="A" pin="LED1"/>
 <wire x1="88.9" y1="63.5" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1856,7 +1856,7 @@ W = angled&lt;p&gt;
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="SDA"/>
+<pinref part="U$1" gate="A" pin="SDA"/>
 <wire x1="27.94" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
 <label x="17.78" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -1868,7 +1868,7 @@ W = angled&lt;p&gt;
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="SCL"/>
+<pinref part="U$1" gate="A" pin="SCL"/>
 <wire x1="27.94" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="17.78" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -1880,7 +1880,7 @@ W = angled&lt;p&gt;
 </net>
 <net name="INT" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="INT"/>
+<pinref part="U$1" gate="A" pin="INT"/>
 <wire x1="27.94" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
 <label x="17.78" y="53.34" size="1.778" layer="95"/>
 </segment>

@@ -493,7 +493,7 @@ design rules under a new name.</description>
 <elements>
 <element name="U1" library="silabs-si1411" package="QFN10" value="SI1141" x="10.922" y="2.794" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.3058" y="2.159" size="0.8128" layer="25" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="6.1976" y="1.143" size="0.8128" layer="21" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="5.6896" y="1.143" size="0.8128" layer="21" ratio="6" rot="SR0"/>
 </element>
 <element name="LED1" library="adafruit" package="CHIP-LED0603" value="696-SMLFM0603SRCTR" x="14.732" y="2.794" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.335" y="4.699" size="0.8128" layer="25" rot="R270"/>
