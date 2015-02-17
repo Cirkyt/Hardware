@@ -1,6 +1,6 @@
 # Hardware
 ## This branch contains all electrical hardware projects
-All projects, unless otherwise stated, are created using EagleCAD PCB design software:
+All projects, unless otherwise stated, are created using EagleCAD PCB v7.2.0 design software:
   - http://www.cadsoftusa.com/download-eagle/
 
 #### Contents
